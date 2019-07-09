@@ -1,0 +1,173 @@
+@font-face{
+    font-family:"DIN W01 Regular";
+    src: url("../fonts/5426089/a397c752-ee83-47cf-b8a8-b476511dd2c9.eot?#iefix");
+    src: url("../fonts/5426089/a397c752-ee83-47cf-b8a8-b476511dd2c9.eot?#iefix") format("eot"),url("../fonts/5426089/53fb9c60-2054-4c31-9283-5562244b4935.woff2") format("woff2"),url("../fonts/5426089/45831ca8-93bd-4808-aa5f-3c915944f727.woff") format("woff"),url("../fonts/5426089/429a3e29-88da-4603-94ff-c1450c089c88.ttf") format("truetype");
+}
+@font-face{
+    font-family:"DIN W01 Light";
+    src: url("/../fonts/5426105/f2fdd2b7-b1c3-436b-9041-724c6a02057f.eot?#iefix");
+    src: url("/../fonts/5426105/f2fdd2b7-b1c3-436b-9041-724c6a02057f.eot?#iefix") format("eot"),url("../fonts/5426105/a5a426db-6dbd-4135-b607-371a197c38fa.woff2") format("woff2"),url("../fonts/5426105/d6062c05-ec0a-4cd8-b859-20c330d2785f.woff") format("woff"),url("../fonts/5426105/0a2435f1-0a73-40d5-a303-fc076009ab66.ttf") format("truetype");
+}
+
+
+:root {
+    --DINregular: 'DIN W01 Regular', serif;
+    --DINlight: 'DIN W01 Light', serif;
+    --copy: Spezia;
+}
+
+
+
+
+
+html, body {
+    font-family: Spezia;
+    font-size: 23px;
+    color: rgb(48,48,48);
+    letter-spacing: 0.03em; 
+    font-weight: 400;
+    line-height: 1.45em; 
+}
+
+
+/* ---------- h1 Startscreen ---------- */
+h1 { 
+    font-size: 1.9rem; 
+    font-weight: 300; 
+    letter-spacing: 0.017em; 
+    line-height: 1.4em;
+    text-align: center;
+}
+
+h1 a { 
+    position: relative; 
+    color: inherit; 
+    text-decoration: none; 
+    font-style: inherit;
+    opacity: 0.7;
+}
+
+h1 a:visited { }
+
+h1 a:hover { 
+    opacity: 0.9;
+ }
+
+ /*----------Media Querys h1--------------*/
+@media (max-width: 600px){
+    h1 {
+        font-size: 1.4rem; 
+        text-align: left;
+    }
+}
+
+
+/* ---------- h2 Project Headline ---------- */
+h2 { 
+    font-size: 1.4rem; 
+    font-weight: 500; 
+    letter-spacing: 0.017em; 
+    line-height: 1.4em;
+    text-align: left;
+    margin-top: 100px;
+}
+
+
+
+/*----------h3--------------*/
+
+
+
+
+
+/* Startscreen */
+h4 { 
+    font-size: 1.2rem; 
+    font-weight: 300; 
+    letter-spacing: 0.017em; 
+    line-height: 1.40em; 
+}
+
+h4 a { position: relative; color: inherit; text-decoration: none;}
+
+h4 a:visited { color: inherit;}
+
+h4 a:hover { opacity: 0.6; }
+
+
+
+
+
+
+/* Project Thumbnail */
+h5 { font-size: 1.3rem; margin-top: 0.5rem; margin-left: 0.3rem; float: left; }
+.h5_category { color: darkgray; margin-left: 0.5rem; }
+.h5_year { float: right; color: darkgray; margin-right: 0.3rem;}
+
+
+
+/* ---------- h6 Sidenav ---------- */
+h6 {
+    /* font-family: Graphik; */
+    font-family: GT America Trial;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+    opacity: 0.3;
+}
+
+.h6-slash {
+    opacity: 0.25;
+}
+
+h6 a:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.underline {
+    text-decoration: underline;
+}
+
+
+
+.underline_name{
+}
+.underline_name a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.6rem;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+    background-color: #FFFF00 ;
+    -webkit-transform: scaleX(1);
+    transform: scaleY(0.5);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.underline_name a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleY(1);
+    background-color: #FFFF00;
+}

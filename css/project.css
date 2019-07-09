@@ -1,0 +1,72 @@
+
+.invitro {
+    background: url(../img/invitro_packaging.jpg) center; 
+
+}
+
+
+.project-hero-image {
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+    height: 65vh;
+    width: 80vw;
+
+    margin-top: 120px;
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+.h2 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+
+.project-abstract {
+    margin: 50px 0 50px 0;
+
+    font-family: var(--copy);
+}
+
+.project-challenge {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.project-outcome {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+
+.project-section-headline {
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: -0.01em;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.project-text {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.img-small {
+    grid-column-start: 4;
+    grid-column-end: 7;
+
+    background: url(../img/invitro.png) center; 
+    height: 400px;
+}
+
+
+
+
+
+
+
